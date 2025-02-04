@@ -370,7 +370,8 @@ function countWord() {
     
     document.getElementById("best6").innerHTML= Counter1 + Counter2 + Counter3 + Counter4 + Counter5 + Counter6 + Counter7 + Counter8 + Counter9 + Counter10 + Counter11 + Counter12 + Counter13 + Counter14 + Counter15 + Counter16 + Counter17 + Counter18 + Counter19 + Counter20 + Counter21 + Counter22 + Counter23 + Counter24 + Counter25 + Counter26 + Counter27 + Counter28 ;
     
-   
+    document.getElementById("best16").innerHTML= Counter1 + Counter2 + Counter3 + Counter4 + Counter6 + Counter7 +  Counter9 + Counter10 + Counter11 + Counter12 + Counter14 +  Counter16 + Counter17 + Counter18  ;
+    document.getElementById("best17").innerHTML= Counter5 + Counter8 + Counter13 +Counter15 + Counter19 + Counter20 + Counter21 + Counter22 + Counter23 + Counter24 + Counter25 + Counter26 + Counter27 + Counter28;
     }
     
     
