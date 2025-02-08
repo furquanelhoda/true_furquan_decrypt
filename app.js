@@ -1,41 +1,3 @@
-// function countWords() {
-
-// let text = document.getElementById("text").value;
-// let wordsCounts = text.split(" ").length;
-
-
-// document.getElementById("best4").innerHTML=wordsCounts;
-
-// }
-
-// // const words = text => {
-
-// return text.split('/\S+/').length ;
-
-// };
-
-
-
-
-// //best code lettre
-// let textWithoutSpace = text.replace(/\s/g, '');
-// let arrayOfLetters = textWithoutSpace.split("");
-
-
-// function countWord() {
-// let counts = {};
-// let text = document.getElementById("text").value;
-// let wordsCount = text.split(" ").length;
-
-// let textWithoutSpace = text.replace(/\s/g, '');
-//  let arrayOfLetters = textWithoutSpace.split("");
-
-
-// document.getElementById("best3").innerHTML=wordsCount;
-
-// }
-
-
 
 
 
@@ -290,7 +252,7 @@ function countWord() {
     document.getElementById("haae6").innerHTML=Counter6*2;
     
     document.getElementById("raa").innerHTML=Counter7;
-    document.getElementById("raa7").innerHTML=Counter7*2;
+    document.getElementById("raa7").innerHTML=Counter7*6;
     
     document.getElementById("baa").innerHTML=Counter8;
     document.getElementById("baa8").innerHTML=Counter8*0;
@@ -362,11 +324,11 @@ function countWord() {
     
     document.getElementById("text").addEventListener("keyup",countWord);
     
-    document.getElementById("best14").innerHTML= Counter1*13 + Counter2*13 + Counter3*7 + Counter4*17  + Counter6*2 + Counter7*2  + Counter9*2 + Counter10*2 + Counter11*1 + Counter12*1  + Counter14*5 + Counter16*3 + Counter17*4 + Counter18*2  ;
+    document.getElementById("best14").innerHTML= Counter1*13 + Counter2*13 + Counter3*7 + Counter4*17  + Counter6*2 + Counter7*6  + Counter9*2 + Counter10*2 + Counter11*1 + Counter12*1  + Counter14*5 + Counter16*3 + Counter17*4 + Counter18*2  ;
 
     document.getElementById("best15").innerHTML=  Counter5*5 + Counter8*0 + Counter13*6 + Counter15*8  + Counter19*3 + Counter20*4 + Counter21*2 + Counter22*7 + Counter23*2 + Counter24*6 + Counter25*5 + Counter26*3 + Counter27*9 + Counter28*4 ;
     
-    document.getElementById("best3").innerHTML= Counter1*13 + Counter2*13 + Counter3*7 + Counter4*17 + Counter5*5 + Counter6*2 + Counter7*2 + Counter8*0 + Counter9*2 + Counter10*2 + Counter11*1 + Counter12*1 + Counter13*6 + Counter14*5 + Counter15*8 + Counter16*3 + Counter17*4 + Counter18*2 + Counter19*3 + Counter20*4 + Counter21*2 + Counter22*7 + Counter23*2 + Counter24*6 + Counter25*5 + Counter26*3 + Counter27*9 + Counter28*4  ;
+    document.getElementById("best3").innerHTML= Counter1*13 + Counter2*13 + Counter3*7 + Counter4*17 + Counter5*5 + Counter6*2 + Counter7*6 + Counter8*0 + Counter9*2 + Counter10*2 + Counter11*1 + Counter12*1 + Counter13*6 + Counter14*5 + Counter15*8 + Counter16*3 + Counter17*4 + Counter18*2 + Counter19*3 + Counter20*4 + Counter21*2 + Counter22*7 + Counter23*2 + Counter24*6 + Counter25*5 + Counter26*3 + Counter27*9 + Counter28*4  ;
     
     document.getElementById("best6").innerHTML= Counter1 + Counter2 + Counter3 + Counter4 + Counter5 + Counter6 + Counter7 + Counter8 + Counter9 + Counter10 + Counter11 + Counter12 + Counter13 + Counter14 + Counter15 + Counter16 + Counter17 + Counter18 + Counter19 + Counter20 + Counter21 + Counter22 + Counter23 + Counter24 + Counter25 + Counter26 + Counter27 + Counter28 ;
     
